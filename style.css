@@ -1,0 +1,96 @@
+/*@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");*/
+.img-circle {
+  border-radius: 50%;
+}
+
+/*@media (max-width: 960px) {
+   For a screen < 960px, this CSS will be read 
+  .container {
+    width: 700px;
+  }
+}
+*/
+.card-white {
+  background: white;
+  /*padding: 30px;*/
+  border: solid 5px lightblue;
+/*  border-top: 1px;
+  border-right: 2px;
+  border-bottom: 1px;
+  border-left: 1px;
+*/}
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.card {
+  box-shadow: 3px 3px 10px rgba(60,60,60,0.5);
+  /*background: red;*/
+  text-align: center;
+  width: 50%;
+  padding: 50px;
+  margin: 10px auto;
+
+  border-radius: 10px;
+  background: white;
+}
+
+.card .text-center {
+ text-align: center;
+}
+
+.card p, .card h1 {
+  text-align: left;
+}
+
+
+
+.container {
+/*  width: 500px;
+*/  margin: auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+div {
+
+}
+
+h1 {
+  color: #ff8e6e;
+  /*font-size: 30px;*/
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300; 
+}
+
+h2 {
+  color: #ffbb91;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200; 
+}
+
+body {
+  /*background-color: #f6f6f6;*/
+  font-family: 'Open Sans', sans-serif;
+  color: #23022E;
+  font-size: 20px;
+  font-weight: 300; 
+  line-height: 1;
+}
+
+a {
+  color: #515070;
+}
+
+a:hover {
+  color: black;
+}
